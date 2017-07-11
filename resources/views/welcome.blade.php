@@ -82,7 +82,7 @@
                 <div class="links">
                     <a href="http://www.amazon.com/gp/registry/wishlist/3D8WYL9H0HOIF?reveal=purchased&tag=trevzone-20" target="_blank">My Setup</a>
                     <a href="http://twitch.tv/trevxor" target="_blank">My Channel</a>
-                    <a href="http://trevzone.dev/social">Social Media</a>
+                    <a href="social">Social Media</a>
                     <a href="http://discord.gg/JwdKW7K" target="_blank">Discord</a>
                 </div>
             </div>

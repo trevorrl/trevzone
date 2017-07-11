@@ -75,7 +75,7 @@
 
             <div class="content">
                 <div class="title-image">
-                    <a href="http://imgur.com/LW9vhyN"><img src="http://i.imgur.com/LW9vhyN.png?1" title="source: imgur.com" width="256" height="256"/></a>
+                    <img src={{asset("avatar.png")}} title="avatar" width="256" height="256"/>
                 </div>
                 <div class="title m-b-md">
                     Trev Zone

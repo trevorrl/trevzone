@@ -28,3 +28,15 @@ Route::get('welcome', function () {
     return view('welcome');
 
 });
+
+Route::get('amazon', function () {
+
+    return redirect('http://amzn.to/2tbC0fW');
+
+});
+
+Route::get('discord', function () {
+
+    return redirect('http://discord.gg/JwdKW7K');
+
+});

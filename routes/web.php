@@ -22,3 +22,9 @@ Route::get('social', function () {
     return view('social');
 
 });
+
+Route::get('welcome', function () {
+
+    return view('welcome');
+
+});

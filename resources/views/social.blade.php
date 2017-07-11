@@ -46,13 +46,13 @@
         }
 
         .title {
-            font-size: 84px;
+            font-size: 350%;
         }
 
         .links > a {
             color: #636b6f;
-            padding: 0 25px;
-            font-size: 12px;
+            padding: 0 15px;
+            font-size: 120%;
             font-weight: 600;
             letter-spacing: .1rem;
             text-decoration: none;
@@ -63,6 +63,8 @@
             margin-bottom: 30px;
         }
         .title-image {
+            min-width: 100%;
+            min-height: 100%;
             max-width: 100%;
             max-height: 100%;
         }

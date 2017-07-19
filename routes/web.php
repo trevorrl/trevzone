@@ -29,14 +29,14 @@ Route::get('welcome', function () {
 
 });
 
-Route::get('amazon', function () {
-
-    return redirect('http://amzn.to/2tbC0fW');
-
-});
-
 Route::get('discord', function () {
 
     return redirect('http://discord.gg/JwdKW7K');
+
+});
+
+Route::get('setup', function () {
+
+    return view('setup');
 
 });

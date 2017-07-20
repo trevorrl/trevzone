@@ -40,3 +40,9 @@ Route::get('setup', function () {
     return view('setup');
 
 });
+
+Route::get('test', function () {
+
+    return view('test');
+
+});

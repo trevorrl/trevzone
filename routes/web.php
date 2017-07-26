@@ -13,36 +13,74 @@
 
 Route::get('/', function () {
 
-    return view('welcome');
+    return view('home');
 
 });
 
-Route::get('social', function () {
+Route::get('about', function () {
 
-    return view('social');
-
-});
-
-Route::get('welcome', function () {
-
-    return view('welcome');
+    return view('about');
 
 });
 
-Route::get('discord', function () {
+//Route::get('social', function () {
+//
+//    return view('social');
+//
+//});
 
-    return redirect('http://discord.gg/JwdKW7K');
+//Route::get('home', function () {
+//
+//    return view('home');
+//
+//});
+
+//Route::get('discord', function () {
+//
+//    return redirect('http://discord.gg/JwdKW7K');
+//
+//});
+
+//Route::get('setup', function () {
+//
+//    return view('setup');
+//
+//});
+
+Route::prefix('personal')->group(function () {
+
+    Route::get('setup', function () {
+
+        return view('setup');
+
+    });
+
+    Route::get('discord', function () {
+
+        return redirect('http://discord.gg/JwdKW7K');
+
+    });
+
+    Route::get('social', function () {
+
+        return view('social');
+
+    });
+
+    Route::get('home', function () {
+
+        return view('personal');
+
+    });
 
 });
 
-Route::get('setup', function () {
+Route::prefix('professional')->group(function () {
 
-    return view('setup');
+    Route::get('home', function () {
 
-});
+        return view('professional');
 
-Route::get('test', function () {
-
-    return view('test');
+    });
 
 });

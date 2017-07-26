@@ -8,12 +8,12 @@
         <title>Good 'nuff</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Trocchi" rel="stylesheet" type="text/css">
 
         <!-- Styles -->
         <link href="{{asset('css/common.css')}}" rel="stylesheet">
     </head>
-    <body>
+    <body class="per">
         <div class="flex-center position-ref full-height">
 
             <div class="content">
@@ -24,13 +24,12 @@
                     Trev Zone
                 </div>
 
-                <div class="links">
-                    <a href="setup">My Setup</a>
-                    <a href="http://twitch.tv/trevxor" target="_blank">My Channel</a>
-                    <a href="social">Social Media</a>
-                    <a href="http://discord.gg/JwdKW7K" target="_blank">Discord</a>
+                <div class="flex-center links">
+                    <a href="personal/home" class="per">Personal <img src={{asset("controller.png")}} title="controller" width="32" height="32" /></a>
+                    <a href="professional/home" class="pro">Professional <img src={{asset("tie.png")}} title="tie" width="32" height="32" /></a>
                 </div>
             </div>
         </div>
+        <a href="/about"><img src={{asset("copyright.png")}} id="copyright" title="copyright"></a>
     </body>
 </html>

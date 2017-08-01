@@ -28,10 +28,10 @@
                 </div>
 
                 <div class="links">
-                    <a href="http://www.facebook.com/1708024242546113" target="_blank"><img src={{asset("facebook.png")}} title="facebook" height="48" width="48" /></a>
-                    <a href="https://twitter.com/trevxor" target="_blank"><img src={{asset("twitter.png")}} title="twitter" height="48" width="48" /></a>
-                    <a href="http://www.snapchat.com/add/trevxor" target="_blank"><img src={{asset("ghost.png")}} title="ghost" height="48" width="48" /></a>
-                    <a href="http://instagram.com/trevxor" target="_blank"><img src={{asset("instagram.png")}} title="instagram" height="48" width="48" /></a>
+                    <a href="http://www.facebook.com/1708024242546113" target="_blank"><span>Facebook</span><img src={{asset("facebook.png")}} title="facebook" height="48" width="48" /></a>
+                    <a href="https://twitter.com/trevxor" target="_blank"><span>Twitter</span><img src={{asset("twitter.png")}} title="twitter" height="48" width="48" /></a>
+                    <a href="http://www.snapchat.com/add/trevxor" target="_blank"><span>Snapchat</span><img src={{asset("ghost.png")}} title="ghost" height="48" width="48" /></a>
+                    <a href="http://instagram.com/trevxor" target="_blank"><span>Instagram</span><img src={{asset("instagram.png")}} title="instagram" height="48" width="48" /></a>
                 </div>
             </div>
         </div>

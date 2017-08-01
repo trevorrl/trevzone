@@ -80,3 +80,9 @@ li > a {
     color: #000;
     text-decoration: underline;
 }
+
+@media screen and (max-device-width: 460px) {
+    span {
+        display: none;
+    }
+}

@@ -23,29 +23,11 @@ Route::get('about', function () {
 
 });
 
-//Route::get('social', function () {
-//
-//    return view('social');
-//
-//});
+Route::get('discord', function () {
 
-//Route::get('home', function () {
-//
-//    return view('home');
-//
-//});
+    return redirect('http://discord.gg/JwdKW7K');
 
-//Route::get('discord', function () {
-//
-//    return redirect('http://discord.gg/JwdKW7K');
-//
-//});
-
-//Route::get('setup', function () {
-//
-//    return view('setup');
-//
-//});
+});
 
 Route::prefix('personal')->group(function () {
 

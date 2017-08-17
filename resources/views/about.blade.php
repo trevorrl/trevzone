@@ -27,6 +27,7 @@
                 <div class="links">
                     <ul>
                         <li>Avatars by Amelia Lemeron</li>
+                        <li>Mail by Ananth from the <a href="https://thenounproject.com/" target="_blank">Noun Project</a></li>
                         <li>Video Game Controller by Márcio Duarte from the <a href="https://thenounproject.com/" target="_blank">Noun Project</a></li>
                         <li>facebook logo by Sumana Chamrunworakiat from the <a href="https://thenounproject.com/" target="_blank">Noun Project</a></li>
                         <li>necktie by Deepz from the <a href="https://thenounproject.com/" target="_blank">Noun Project</a></li>

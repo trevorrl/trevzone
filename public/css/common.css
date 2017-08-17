@@ -71,12 +71,20 @@ html, body {
     height: 32px;
 }
 
+#contact {
+    position: fixed;
+    bottom: 0px;
+    right: 34px;
+    width: 32px;
+    height: 32px;
+}
+
 ul {
     list-style-type: none;
     text-decoration: none;
 }
 
-li > a {
+li, p > a {
     color: #000;
     text-decoration: underline;
 }

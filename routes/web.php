@@ -29,6 +29,12 @@ Route::get('discord', function () {
 
 });
 
+Route::get('contact', function () {
+
+    return view('contact');
+
+});
+
 Route::prefix('personal')->group(function () {
 
     Route::get('setup', function () {

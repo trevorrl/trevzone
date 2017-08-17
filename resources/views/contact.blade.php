@@ -13,24 +13,22 @@
         <!-- Styles -->
         <link href="{{asset('css/common.css')}}" rel="stylesheet">
     </head>
-    <body class="per">
+    <body class="pro">
         <div class="flex-center position-ref full-height">
 
             <div class="content">
-                <div class="title-image">
-                    <img src={{asset("avatar.png")}} title="avatar" width="256" height="256"/>
+                <div class="links">
+                    <a href="/">Home</a>
                 </div>
                 <div class="title m-b-md">
-                    Trev Zone
+                    Contact
                 </div>
 
-                <div class="flex-center links">
-                    <a href="personal/home" class="per">Personal <img src={{asset("controller.png")}} title="controller" width="32" height="32" /></a>
-                    <a href="professional/home" class="pro">Professional <img src={{asset("tie.png")}} title="tie" width="32" height="32" /></a>
+                <div class="links">
+                    <p>If you just want to chat, you can reach me on a variety of <a href="/personal/social">social media</a> platforms.</p>
+                    <p>However, if you have any questions or comments concerning any projects or products of mine, I recommend specifically reaching out via <a href="https://twitter.com" target="blank">Twitter</a> for support. Thanks! 
                 </div>
             </div>
         </div>
-        <a href="/about"><img src={{asset("copyright.png")}} id="copyright" title="copyright"></a>
-        <a href="/contact"><img src={{asset("contact.png")}} id="contact" title="contact"></a>
     </body>
 </html>

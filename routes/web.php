@@ -71,4 +71,10 @@ Route::prefix('professional')->group(function () {
 
     });
 
+    Route::get('projects', function() {
+
+        return view('projects');
+
+    });
+
 });

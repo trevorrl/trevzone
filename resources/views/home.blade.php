@@ -25,8 +25,8 @@
                 </div>
 
                 <div class="flex-center links">
-                    <a href="personal/home" class="per">Personal <img src={{asset("controller.png")}} title="controller" width="32" height="32" /></a>
-                    <a href="professional/home" class="pro">Professional <img src={{asset("tie.png")}} title="tie" width="32" height="32" /></a>
+                    <a href="personal/home" class="per">Personal <img src={{asset("controller.png")}} title="controller" width="48" height="48" /></a>
+                    <a href="professional/home" class="pro">Professional <img src={{asset("tie.png")}} title="tie" width="48" height="48" /></a>
                 </div>
             </div>
         </div>

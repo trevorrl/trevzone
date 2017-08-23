@@ -25,8 +25,8 @@
                 </div>
 
                 <div class="links">
-                    <p>If you just want to chat, you can reach me on a variety of <a href="/personal/social">social media</a> platforms.</p>
-                    <p>However, if you have any questions or comments concerning any projects or products of mine, I recommend specifically reaching out via <a href="https://twitter.com/trevxor" target="blank">Twitter</a> for support. Thanks! 
+                    <p>Wanna chat? Hit me up on <a href="/personal/social">social media</a></p>
+                    <p>For feature suggestions or support requests, send an email to <a href="mailto:contact@trev.zone">contact@trev.zone</a></p>
                 </div>
             </div>
         </div>

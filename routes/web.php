@@ -35,6 +35,12 @@ Route::get('contact', function () {
 
 });
 
+Route::get('tips', function () {
+
+    return view('tips');
+
+});
+
 Route::get('fidget', function () {
 
     return redirect('https://itunes.apple.com/us/app/animated-fidget-spinner-sticker-pack/id1272739329?mt=8');

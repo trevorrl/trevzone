@@ -37,5 +37,6 @@
         </div>
         <a href="/about"><img src={{asset("copyright.png")}} id="copyright" title="copyright"></a>
         <a href="/contact"><img src={{asset("contact.png")}} id="contact" title="contact"></a>
+        <a href="/tips"><img src={{asset("dollar.png")}} id="tips" title="tips"></a>
     </body>
 </html>

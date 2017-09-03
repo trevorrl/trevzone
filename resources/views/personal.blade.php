@@ -30,13 +30,14 @@
                 <div class="links">
                     {{--TODO re-activate Setup section once I have professional photographs of my setup--}}
                     {{--<a href="setup">My Setup <img src={{asset("computer.png")}} title="computer" width="32" height="32" /></a>--}}
-                    <a href="http://twitch.tv/trevxor" target="_blank"><span>Twitch</span><img src={{asset("twitch.png")}} title="twitch" height="48" width="48"/></a>
                     <a href="social"><span>Social</span><img src={{asset("social.png")}} title="social" height="48" width="48" /></a>
+                    <a href="http://twitch.tv/trevxor" target="_blank"><span>Twitch</span><img src={{asset("twitch.png")}} title="twitch" height="48" width="48"/></a>
                     <a href="http://discord.gg/JwdKW7K" target="_blank"><span>Discord</span><img src={{asset("discord.png")}} title="discord" height="48" width="48" /></a>
                 </div>
             </div>
         </div>
         <a href="/about"><img src={{asset("copyright.png")}} id="copyright" title="copyright"></a>
         <a href="/contact"><img src={{asset("contact.png")}} id="contact" title="contact"></a>
+        <a href="/tips"><img src={{asset("dollar.png")}} id="tips" title="tips"></a>
     </body>
 </html>

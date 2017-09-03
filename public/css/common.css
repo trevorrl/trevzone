@@ -73,10 +73,18 @@ html, body {
 
 #contact {
     position: fixed;
-    bottom: 0px;
+    bottom: -4px;
     right: 34px;
-    width: 32px;
-    height: 32px;
+    width: 36px;
+    height: 36px;
+}
+
+#tips {
+    position: fixed;
+    bottom: 18px;
+    right: -15px;
+    width: 62px;
+    height: 62px;
 }
 
 ul {

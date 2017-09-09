@@ -27,6 +27,7 @@
                 <div class="links">
                     <ul>
                         <li>Avatars by Amelia Lemeron</li>
+                        <li>youtube by Roman Shvets from the <a href="https://thenounproject.com/" target="_blank">Noun Project</a></li>
                         <li>dollar by Rockicon from the <a href="https://thenounproject.com/" target="_blank">Noun Project</a></li>
                         <li>iPhone by Iconangelo from the <a href="https://thenounproject.com/" target="_blank">Noun Project</a></li>
                         <li>Mail by Ananth from the <a href="https://thenounproject.com/" target="_blank">Noun Project</a></li>

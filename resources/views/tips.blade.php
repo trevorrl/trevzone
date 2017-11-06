@@ -25,11 +25,23 @@
                 </div>
 
                 <div class="links">
-                    <p>If you're here, it means you're considering dropping a few bucks my way for whatever it is you like about what I do.<br> Just want to let you know that I super, duper appreciate it, and have two different ways you can help me out.</p>
-                    <p>If you're coming from my Twitch stream, you're probably familiar with Streamlabs, and can throw some bones my way
-                        here: <a href="https://streamlabs.com/trevxor" target="blank">Streamlabs Link</a></p>
-                    <p>Or, if you'd rather, my Square Cashtag is $trevxor and you can send me some dough here: 
-                        <a href="http://cash.me/$trevxor" target="blank">Square Cash Link</a></p>
+                    <p>
+                        Hey! If you're here, that means you want to support whatever it is that I do. Thanks! <br>
+                        There are a couple different ways to help out, every little bit helps so choose whichever method you're most comfortable with. 
+                    </p>
+                    <p>If you're coming from my Twitch stream, you're probably already familiar with Streamlabs, and can throw some bones my way here: <a href="https://streamlabs.com/trevxor" target="blank">Streamlabs Link</a><br>
+                    Also, this method will pop your name up on stream so if you're after that LIVE recognition, this is the way to do it. 
+                    </p>
+                    <p>Or, if you're heavy into that Square Cash, my cashtag is $trevxor and you can send me some dough here: 
+                        <a href="http://cash.me/$trevxor" target="blank">Square Cash Link</a>
+                    </p>
+                    <p>
+                        Finally, if you want to help out but can't drop cold hard cash, no worries. Click that button down below and leave this tab open when you're not using your computer.<br>
+                        The process is completely harmless, but if you want more info feel free to check out <a href="https://tabfor.org/faq" target="blank">Tabfor.org FAQ</a> for more information. 
+                    </p>
+                </div>
+                <div>
+                    <iframe src="https://tabfor.org/widget.php?org=trevxor" width="300" height="75" style="border:0; display:inline-block;"></iframe>
                 </div>
             </div>
         </div>

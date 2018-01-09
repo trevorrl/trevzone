@@ -26,7 +26,7 @@
                 <div class="header flex-center">
                     <div class="navigation flex-center">
                         <ul>
-                            <li class = "per"><a href="#">Personal<img src={{asset("controller.png")}} title="controller" height="48" width="48" /></a>
+                            <li class="per"><a href="#">Personal<img src={{asset("controller.png")}} title="controller" height="48" width="48" /></a>
                                 <ul>
                                     <li><a href="discord" target="_blank">Discord<img src={{asset("discord.png")}} title="discord" height="32" width="32" /></a></li>
                                     <li><a href="https://www.youtube.com/channel/UCFSJsYcAUnlRIsceaXacrxg" target="_blank">Youtube<img src={{asset("youtube.png")}} title="youtube" height="32" width="32" /></a></li>

@@ -31,14 +31,14 @@ html, body {
 }
 
 .title {
-    font-size: 400%;
+    font-size: 2.5rem;
     font-weight: 700;
 }
 
 .links > a {
     color: #000;
     padding: 0 15px;
-    font-size: 200%;
+    font-size: 1.5rem;
     font-weight: 400;
     letter-spacing: .1rem;
     text-decoration: none;
@@ -57,10 +57,128 @@ html, body {
 
 .pro {
     font-family: 'Trocchi', serif;
+    text-align: left !important;
 }
 
 .per {
     font-family: 'Permanent Marker', cursive;
+}
+
+.header{
+    width: 600px; 
+    height:50px; 
+}
+.item{
+    top:50px; 
+    left:20px; 
+    width: 600px; 
+    height:400px; 
+}
+
+.navigation ul{
+    /* positioning */
+    position:relative;
+    /* remove the dots next to list items: */
+    list-style:none; 
+    /* get rid of any default or inherited margins and padding: */
+    margin:0; 
+    padding:0; 
+    
+    /* styling: */
+    color: #000;
+    padding: 0 15px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* we're using the direct descendant selectors > to ONLY affect the main menu items */
+.navigation > ul > li {
+    /* positioning */ 
+    position: relative;
+    float: left;
+    /* styling: */
+    margin-right: 10px;
+}
+.navigation > ul > li > a {
+    /* positioning */ 
+    display:block;
+    /* styling: */
+    padding:8px 14px;
+    text-decoration:none;
+    color: #000;
+}
+.navigation > ul > li > a:hover{
+    /* styling: */
+    color: #000;
+    text-decoration: line-through;
+}
+.navigation ul ul{
+    text-align: right;
+    width:400px; /* you need a width to accommodate tertiary menus */
+    
+    position:absolute;
+    
+    height: 0;
+    overflow: hidden;
+
+    -webkit-transition: height 0.3s ease-in;
+    -moz-transition: height 0.3s ease-in;
+    -o-transition: height 0.3s ease-in;
+    -ms-transition: height 0.3s ease-in;
+    transition: height 0.3s ease-in;
+}
+
+
+/* don't display tertiary box yet */
+.navigation > ul > li:hover ul ul, .navigation > ul > li > a:hover ul ul{
+    height:0;
+    text-decoration:line-through;
+    text-align: left;
+}
+/* tertiary drop-down box */
+.navigation ul ul ul{
+    left:180px;
+    width:170px;
+}
+
+.navigation > ul > li:hover ul, .navigation > ul > li > a:hover ul,
+.navigation ul ul li:hover > ul, .navigation ul ul li a:hover > ul{
+    height:400px; /* need a height to accommodate any tertiary menus */
+    text-decoration:none;
+}
+
+/* drop-down item styles */
+/* if you want different styling for tertiary menus, just copy the 4 rules below and insert an additional ul: for example: ".navigation ul ul li", becomes: ".navigation ul ul ul li" */
+
+.navigation ul ul li{
+    width:200px;
+    font-size: 1rem;
+
+    -webkit-transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+    -ms-transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease;
+}
+
+.navigation ul ul li:hover {
+    text-decoration:line-through;
+}
+
+.navigation ul ul li a {
+    display:block;
+    text-decoration:none;
+    margin:0 12px;
+    padding:5px 0;
+}
+.navigation ul ul li a:hover, .navigation ul ul li:hover > a {
+    text-decoration:line-through;
+}
+a img {
+    vertical-align: middle;
 }
 
 #copyright {
@@ -94,10 +212,13 @@ ul {
 
 li, p > a {
     color: #000;
-    text-decoration: underline;
 }
 
-@media screen and (max-device-width: 460px) {
+a {
+    color: #000 !important;
+}
+
+/*@media screen and (max-device-width: 460px) {
     span {
         display: none;
     }
@@ -116,4 +237,4 @@ li, p > a {
         font-size: 300%;
         font-weight: 700;
     }
-}
+}*/

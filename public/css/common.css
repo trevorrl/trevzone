@@ -1,3 +1,18 @@
+@keyframes logo {
+    0%{
+        opacity: 1;
+    }
+    5%{
+        opacity: 0;
+    }
+    95%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 @keyframes rotation {
     0%{
         border-radius:0 0 0 0;
@@ -67,10 +82,20 @@ html, body {
     margin: 0;
 }
 
+.logo {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    animation: logo 10s 1s both;
+}
+
 .rotation {
     width: 200px;
     height: 200px;
-    background-color: black;
+    background: black;
     transform: rotate(45deg);
     animation: rotation 10s 1s both;
 }
@@ -84,6 +109,12 @@ html, body {
     white-space: nowrap;
     color: black;
     animation: textalert 10s 1s both;
+}
+
+.logo {
+    transform: rotate(-45deg);
+    display: inline-table;
+    white-space: nowrap;
 }
 
 .full-height {

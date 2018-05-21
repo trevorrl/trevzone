@@ -16,11 +16,14 @@
 <body class="per">
 <div class="flex-center position-ref full-height">
 
-    <div>
+    <div class="chroma">
         <div class="sliding">
             <div class="rotation">
                 <div class="textalert">
                     <h1>Hello there!</h1>
+                </div>
+                <div class="logo">
+                    <img src="{{asset('logo.png')}}" title="logo" width="200" height="200"/>
                 </div>
             </div>
         </div>

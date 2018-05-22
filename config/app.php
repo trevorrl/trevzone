@@ -26,6 +26,7 @@ return [
     */
 
     'env' => env('APP_ENV', 'production'),
+    'socket_token' => env('SOCKET_TOKEN'),
 
     /*
     |--------------------------------------------------------------------------

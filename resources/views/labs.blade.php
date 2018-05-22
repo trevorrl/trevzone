@@ -14,8 +14,11 @@
     <link href="{{asset('css/common.css')}}" rel="stylesheet">
 
     <!-- Scripts -->
+    @php
+        $socketToken = config('app.socket_token');
+    @endphp
     <script>
-        window.socketToken = "{{env('SOCKET_TOKEN')}}";
+        window.socketToken = "{{$socketToken}}"
     </script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
     <script type="text/javascript" src="{{asset('js/trigger.js')}}"></script>

@@ -82,6 +82,16 @@ html, body {
     margin: 0;
 }
 
+.logo-animate {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    animation: logo 12s both;
+}
+
 .logo {
     position: absolute;
     margin: auto;
@@ -89,7 +99,17 @@ html, body {
     left: 0;
     right: 0;
     bottom: 0;
-    animation: logo 10s 1s both;
+    transform: rotate(-45deg);
+    display: inline-table;
+    white-space: nowrap;
+}
+
+.rotation-animate {
+    width: 200px;
+    height: 200px;
+    background: black;
+    transform: rotate(45deg);
+    animation: rotation 12s both;
 }
 
 .rotation {
@@ -97,24 +117,24 @@ html, body {
     height: 200px;
     background: black;
     transform: rotate(45deg);
-    animation: rotation 10s 1s both;
 }
 
-.sliding {
-    animation: sliding 10s 1s cubic-bezier(0.680, -0.550, 0.265, 1.550) both;
+.sliding-animate {
+    animation: sliding 12s cubic-bezier(0.680, -0.550, 0.265, 1.550) both;
+}
+
+.textalert-animate {
+    display: inline-table;
+    white-space: nowrap;
+    color: black;
+    animation: textalert 12s both;
 }
 
 .textalert {
     display: inline-table;
     white-space: nowrap;
     color: black;
-    animation: textalert 10s 1s both;
-}
-
-.logo {
-    transform: rotate(-45deg);
-    display: inline-table;
-    white-space: nowrap;
+    opacity: 0;
 }
 
 .full-height {

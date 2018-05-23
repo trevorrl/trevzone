@@ -1,7 +1,9 @@
 window.onload = function () {
 
+    // defining streamlabs websocket
     const streamlabs = io(('https://sockets.streamlabs.com?token=' + socketToken), {transports: ['websocket']});
 
+    // variables yo
     let click     = document.getElementById('click');
     let sliding   = document.getElementById('sliding');
     let rotation  = document.getElementById('rotation');
@@ -9,7 +11,10 @@ window.onload = function () {
     let logo      = document.getElementById('logo');
     let msg1      = document.getElementById('msg1');
     let msg2      = document.getElementById('msg2');
+    let chromakey = document.getElementById('chroma-key');
 
+    // handling streamlab alert events
+    // TODO: wrapping stuff in a function didn't actually fix anything so find another solution
     streamlabs.on('event', (eventData) => {
         if (eventData.type === 'donation') {
             //code to handle donation events
@@ -38,7 +43,7 @@ window.onload = function () {
                     //code to handle follow events
                     console.log("Follow received: ");
                     console.log(eventData);
-                    msg1.textContent = (eventData.message[0].name + " just followed!")
+                    msg1.textContent = (eventData.message[0].name + " just followed!");
                     sliding.classList.add('sliding-animate');
                     rotation.classList.add('rotation-animate');
                     textalert.classList.add('textalert-animate');
@@ -142,6 +147,15 @@ window.onload = function () {
             }
         }
     });
+
+    // change background to chroma green for overlay by clicking background
+    chromakey.onclick = function (event) {
+        if (chromakey.classList.contains("chroma-key")) {
+            chromakey.classList.remove("chroma-key");
+        } else {
+            chromakey.classList.add("chroma-key");
+        }
+    };
 
     // test triggering animation and setting message text via click event
     click.onclick = function (event) {

@@ -25,7 +25,7 @@
 
 </head>
 <body class="per">
-<div class="flex-center position-ref full-height">
+<div class="flex-center position-ref full-height" id="chroma-key">
 
         <div id="click" class="click">
             <div id="sliding" class="sliding">

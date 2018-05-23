@@ -82,6 +82,10 @@ html, body {
     margin: 0;
 }
 
+.chroma-key {
+    background: greenyellow;
+}
+
 .logo-animate {
     position: absolute;
     margin: auto;

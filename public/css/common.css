@@ -82,6 +82,13 @@ html, body {
     margin: 0;
 }
 
+.whiteText {
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 230%;
+}
+
 .chroma-key {
     background: greenyellow;
 }
@@ -129,15 +136,17 @@ html, body {
 
 .textalert-animate {
     display: inline-table;
-    white-space: nowrap;
-    color: black;
+    width: 550px;
+    white-space: normal;
+    overflow: visible;
     animation: textalert 12s both;
 }
 
 .textalert {
     display: inline-table;
-    white-space: nowrap;
-    color: black;
+    width: 550px;
+    white-space: normal;
+    overflow: visible;
     opacity: 0;
 }
 

@@ -22,7 +22,9 @@
     </script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
     <script type="text/javascript" src="{{asset('js/trigger.js')}}"></script>
-
+    <audio id="followAudio" src="{{asset('FFXIV_Notification.mp3')}}"></audio>
+    <audio id="subAudio" src="{{asset('FFXIV_Quest_Complete.mp3')}}"></audio>
+    <audio id="donoAudio" src="{{asset('FFXIV_Incoming_Tell.mp3')}}"></audio>
 </head>
 <body class="per">
 <div class="flex-center position-ref full-height" id="chroma-key">

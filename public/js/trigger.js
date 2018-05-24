@@ -4,14 +4,17 @@ window.onload = function () {
     const streamlabs = io(('https://sockets.streamlabs.com?token=' + socketToken), {transports: ['websocket']});
 
     // variables yo
-    let click     = document.getElementById('click');
-    let sliding   = document.getElementById('sliding');
-    let rotation  = document.getElementById('rotation');
-    let textalert = document.getElementById('textalert');
-    let logo      = document.getElementById('logo');
-    let msg1      = document.getElementById('msg1');
-    let msg2      = document.getElementById('msg2');
-    let chromakey = document.getElementById('chroma-key');
+    let click       = document.getElementById('click');
+    let sliding     = document.getElementById('sliding');
+    let rotation    = document.getElementById('rotation');
+    let textalert   = document.getElementById('textalert');
+    let logo        = document.getElementById('logo');
+    let msg1        = document.getElementById('msg1');
+    let msg2        = document.getElementById('msg2');
+    let chromakey   = document.getElementById('chroma-key');
+    let followAudio = document.getElementById('followAudio');
+    let subAudio    = document.getElementById('subAudio');
+    let donoAudio   = document.getElementById('donoAudio');
 
     // handling streamlab alert events
     // TODO: wrapping stuff in a function didn't actually fix anything so find another solution
@@ -27,6 +30,10 @@ window.onload = function () {
             textalert.classList.add('textalert-animate');
             logo.classList.add('logo-animate');
             console.log('animating');
+            setTimeout(function () {
+                donoAudio.volume = 0.1;
+                donoAudio.play();
+            }, 3600);
             setTimeout(function () {
                 sliding.classList.remove('sliding-animate');
                 rotation.classList.remove('rotation-animate');
@@ -50,6 +57,10 @@ window.onload = function () {
                     logo.classList.add('logo-animate');
                     console.log('animating');
                     setTimeout(function () {
+                        followAudio.volume = 0.5;
+                        followAudio.play();
+                    }, 3600);
+                    setTimeout(function () {
                         sliding.classList.remove('sliding-animate');
                         rotation.classList.remove('rotation-animate');
                         textalert.classList.remove('textalert-animate');
@@ -70,6 +81,8 @@ window.onload = function () {
                     textalert.classList.add('textalert-animate');
                     logo.classList.add('logo-animate');
                     console.log('animating');
+                    subAudio.volume = 0.03;
+                    subAudio.play();
                     setTimeout(function () {
                         sliding.classList.remove('sliding-animate');
                         rotation.classList.remove('rotation-animate');
@@ -90,6 +103,10 @@ window.onload = function () {
                     textalert.classList.add('textalert-animate');
                     logo.classList.add('logo-animate');
                     console.log('animating');
+                    setTimeout(function () {
+                        followAudio.volume = 0.5;
+                        followAudio.play();
+                    }, 3600);
                     setTimeout(function () {
                         sliding.classList.remove('sliding-animate');
                         rotation.classList.remove('rotation-animate');
@@ -112,6 +129,10 @@ window.onload = function () {
                     logo.classList.add('logo-animate');
                     console.log('animating');
                     setTimeout(function () {
+                        donoAudio.volume = 0.1;
+                        donoAudio.play();
+                    }, 3600);
+                    setTimeout(function () {
                         sliding.classList.remove('sliding-animate');
                         rotation.classList.remove('rotation-animate');
                         textalert.classList.remove('textalert-animate');
@@ -131,6 +152,10 @@ window.onload = function () {
                     textalert.classList.add('textalert-animate');
                     logo.classList.add('logo-animate');
                     console.log('animating');
+                    setTimeout(function () {
+                        followAudio.volume = 0.5;
+                        followAudio.play();
+                    }, 3600);
                     setTimeout(function () {
                         sliding.classList.remove('sliding-animate');
                         rotation.classList.remove('rotation-animate');
@@ -152,6 +177,8 @@ window.onload = function () {
     let params = window.location.search;
     if (params === "?chroma") {
         chromakey.classList.add('chroma-key');
+        msg1.classList.add('whiteText');
+        msg2.classList.add('whiteText');
     }
 
     // test triggering animation and setting message text via click event

@@ -149,13 +149,10 @@ window.onload = function () {
     });
 
     // change background to chroma green for overlay by clicking background
-    chromakey.onclick = function (event) {
-        if (chromakey.classList.contains("chroma-key")) {
-            chromakey.classList.remove("chroma-key");
-        } else {
-            chromakey.classList.add("chroma-key");
-        }
-    };
+    let params = window.location.search;
+    if (params === "?chroma") {
+        chromakey.classList.add('chroma-key');
+    }
 
     // test triggering animation and setting message text via click event
     click.onclick = function (event) {

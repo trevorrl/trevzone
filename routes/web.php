@@ -47,9 +47,9 @@ Route::get('tips', function () {
 
 });
 
-Route::get('labs', function () {
+Route::get('alerts', function () {
 
-    return view('labs');
+    return view('alerts');
 
 });
 

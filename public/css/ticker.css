@@ -1,0 +1,38 @@
+@keyframes pointer {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(-20px);
+    }
+}
+
+#chroma-key {
+    background: greenyellow;
+}
+
+.tickerBody {
+    width: 320px;
+    height: 80px;
+    background: white;
+    transform: skew(-20deg);
+}
+
+.pointer {
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-left: 80px solid white;
+    border-bottom: 40px solid transparent;
+    animation: pointer 0.5s alternate infinite;
+}
+
+.socialText {
+    transform: translateX(20px) translateY(-7px) skew(10deg);
+    font-size: 150%;
+    vertical-align: super;
+}
+
+.socialText > span {
+    vertical-align: super;
+}

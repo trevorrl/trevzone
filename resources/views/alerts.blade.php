@@ -37,7 +37,6 @@
                 <div id="rotation" class="rotation">
                     <div id="textalert" class="textalert">
                         <h1 id="msg1"></h1>
-                        <h2 id="msg2"></h2>
                     </div>
                     <div id="logo" class="logo">
                         <img src="{{asset('logo.png')}}" title="logo" width="200" height="200"/>

@@ -21,7 +21,8 @@
     <script>
         window.socketToken = "{{$socketToken}}"
     </script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="{{asset('js/alerts.js')}}"></script>
 
     <audio id="followAudio" src="{{asset('FFXIV_Notification.mp3')}}"></audio>

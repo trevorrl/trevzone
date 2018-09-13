@@ -66,13 +66,13 @@ html, body {
 }
 
 .header{
-    width: 600px; 
+    width: 700px; 
     height:50px; 
 }
 .item{
     top:50px; 
     left:20px; 
-    width: 600px; 
+    width: 700px; 
     height:400px; 
 }
 
@@ -117,7 +117,7 @@ html, body {
     text-decoration: line-through;
 }
 .navigation ul ul{
-    text-align: right;
+    text-align: left;
     width:400px; /* you need a width to accommodate tertiary menus */
     
     position:absolute;
@@ -147,7 +147,7 @@ html, body {
 
 .navigation > ul > li:hover ul, .navigation > ul > li > a:hover ul,
 .navigation ul ul li:hover > ul, .navigation ul ul li a:hover > ul{
-    height:400px; /* need a height to accommodate any tertiary menus */
+    height:440px; /* need a height to accommodate any tertiary menus */
     text-decoration:none;
 }
 

@@ -40,7 +40,7 @@
                         <h1 id="msg1"></h1>
                     </div>
                     <div id="logo" class="logo">
-                        <img src="{{asset('logo.png')}}" title="logo" width="200" height="200"/>
+                        <img src="{{asset('logo-text.png')}}" title="logo" width="200" height="200"/>
                     </div>
                 </div>
             </div>

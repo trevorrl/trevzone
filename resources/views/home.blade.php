@@ -18,7 +18,7 @@
         <div class="flex-center position-ref">
             <div class="content">
                 <div class="title-image">
-                    <img src={{asset("avatar.png")}} title="avatar" width="256" height="256"/>
+                    <img src={{asset("logo-black.png")}} title="logo-black" height="256" width="256"/>
                 </div>
                 <div class="title m-b-md">
                     Trev Zone
@@ -26,28 +26,25 @@
                 <div class="header flex-center">
                     <div class="navigation flex-center">
                         <ul>
-                            <li class="per"><a href="#">Personal<img src={{asset("controller.png")}} title="controller" height="48" width="48" /></a>
+                            <li class="per"><a href="#">Follow Me!</a>
                                 <ul>
-                                    <li><a href="discord" target="_blank">Discord<img src={{asset("discord.png")}} title="discord" height="32" width="32" /></a></li>
-                                    <li><a href="https://www.youtube.com/channel/UCFSJsYcAUnlRIsceaXacrxg" target="_blank">Youtube<img src={{asset("youtube.png")}} title="youtube" height="32" width="32" /></a></li>
-                                    <li><a href="https://www.twitch.tv/trevxor" target="_blank">Twitch<img src={{asset("twitch.png")}} title="twitch" height="32" width="32" /></a></li>
-                                        <li>
-                                            <ul>
-                                                <li><a href="https://fb.com/trevxor" target="_blank"><img src={{asset("facebook.png")}} title="facebook" height="32" width="32" />Facebook</a></li>
-                                                <li><a href="https://twitter.com/trevxor" target="_blank"><img src={{asset("twitter.png")}} title="twitter" height="32" width="32" />Twitter</a></li>
-                                                <li><a href="https://www.snapchat.com/add/trevxor" target="_blank"><img src={{asset("ghost.png")}} title="ghost" height="32" width="32" />Snapchat</a></li>
-                                                <li><a href="https://www.instagram.com/trevxor/" target="_blank"><img src={{asset("instagram.png")}} title="instagram" height="32" width="32" />Insta</a></li>
-                                            </ul>
-                                            <a href="#">Social<img src={{asset("social.png")}} title="social" height="32" width="32" /></a>
-                                        </li>
+                                    <li><a href="https://fb.com/trevxor" target="_blank"><img src={{asset("facebook.png")}} title="facebook" height="32" width="32" />Facebook</a></li>
+                                    <li><a href="https://twitter.com/trevxor" target="_blank"><img src={{asset("twitter.png")}} title="twitter" height="32" width="32" />Twitter</a></li>
+                                    <li><a href="https://www.snapchat.com/add/trevxor" target="_blank"><img src={{asset("ghost.png")}} title="ghost" height="32" width="32" />Snapchat</a></li>
+                                    <li><a href="https://www.instagram.com/trevxor/" target="_blank"><img src={{asset("instagram.png")}} title="instagram" height="32" width="32" />Insta</a></li>
                                 </ul>
                             </li>
-                            <li class="pro"><a href="#"><img src={{asset("tie.png")}} title="tie" height="48" width="48" />Professional</a>
+                            <li class="per"><a href="#">Watch Me!</a>
                                 <ul>
-                                    <li class="pro" style="width: 370px"><a href="https://github.com/trevorrl" target="_blank"><img src={{asset("github.png")}} title="github" height="32" width="32" />Github</a></li>
-                                    <li class="pro" style="width: 370px"><a href="https://www.linkedin.com/in/trevorrl/" target="_blank"><img src={{asset("linkedin.png")}} title="linkedin" height="32" width="32" />LinkedIn</a></li>
-                                    <li class="pro" style="width: 370px"><a href="https://stackoverflow.com/users/1442714/trevor-lemeron" target="_blank"><img src={{asset("stackoverflow.png")}} title="stackoverflow" height="32" width="32" />Stackoverflow</a></li>
-                                    <li class="pro" style="width: 370px"><a href="https://itunes.apple.com/us/developer/trevor-lemeron/id1272739328" target="_blank"><img src={{asset("iphone.png")}} title="iphone" height="32" width="32" />App Store</a></li>
+                                    <li><a href="https://www.twitch.tv/trevxor" target="_blank"><img src={{asset("twitch.png")}} title="twitch" height="32" width="32" />Twitch</a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCFSJsYcAUnlRIsceaXacrxg" target="_blank"><img src={{asset("youtube.png")}} title="youtube" height="32" width="32" />Youtube</a></li>
+                                </ul>
+                            </li>
+                            <li class="per"><a href="#">Support Me!</a>
+                                <ul>
+                                    <li><a href="https://streamlabs.com/trevxor/merch" target="_blank"><img src={{asset("tie.png")}} title="tie" height="32" width="32" />Merch</a></li>
+                                    <li><a href="https://streamlabs.com/trevxor" target="_blank"><img src={{asset("dollar.png")}} title="dollar" height="32" width="32" />Tips</a></li>
+                                    <li><a href="https://www.twitch.tv/products/trevxor" target="_blank"><img src={{asset("twitch.png")}} title="twitch" height="32" width="32" />Subscribe</a></li>
                                 </ul>
                             </li>
                         </ul>

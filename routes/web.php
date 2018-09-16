@@ -59,6 +59,12 @@ Route::get('ticker', function () {
 
 });
 
+Route::get('merch', function () {
+    
+    return redirect('https://streamlabs.com/trevxor/merch');
+
+});
+
 Route::get('fidget', function () {
 
     return redirect('https://itunes.apple.com/us/app/animated-fidget-spinner-sticker-pack/id1272739329?mt=8');

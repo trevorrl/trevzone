@@ -42,7 +42,7 @@
                             </li>
                             <li class="per"><a href="#">Support Me!</a>
                                 <ul>
-                                    <li><a href="https://streamlabs.com/trevxor/merch" target="_blank"><img src={{asset("tie.png")}} title="tie" height="32" width="32" />Merch</a></li>
+                                    <li><a href="https://streamlabs.com/trevxor#/merch" target="_blank"><img src={{asset("tie.png")}} title="tie" height="32" width="32" />Merch</a></li>
                                     <li><a href="https://streamlabs.com/trevxor" target="_blank"><img src={{asset("dollar.png")}} title="dollar" height="32" width="32" />Tips</a></li>
                                     <li><a href="https://www.twitch.tv/products/trevxor" target="_blank"><img src={{asset("twitch.png")}} title="twitch" height="32" width="32" />Subscribe</a></li>
                                 </ul>

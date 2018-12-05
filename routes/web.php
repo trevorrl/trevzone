@@ -61,7 +61,7 @@ Route::get('ticker', function () {
 
 Route::get('merch', function () {
     
-    return redirect('https://streamlabs.com/trevxor/merch');
+    return redirect('https://streamlabs.com/trevxor/#merch');
 
 });
 

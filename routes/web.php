@@ -59,6 +59,12 @@ Route::get('ticker', function () {
 
 });
 
+Route::get('timer', function () {
+
+    return view('timer');
+
+});
+
 Route::get('merch', function () {
     
     return redirect('https://streamlabs.com/trevxor#/merch');

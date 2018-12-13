@@ -18,7 +18,7 @@
     <script type="text/javascript" src="{{asset('js/timer.js')}}"></script>
 
 </head>
-<body class="per">
+<body>
 
 
 

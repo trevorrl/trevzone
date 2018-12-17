@@ -23,31 +23,33 @@
 
     <body>
     
-    <ul class="nav nav-tabs" id="timers" role="tablist">
-        <li class="nav-item">
-            <a class="nav-link active" id="stopwatch-tab" data-toggle="tab" href="#stopwatch" role="tab" aria-controls="stopwatch" aria-selected="true">Stopwatch</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="countdown-tab" data-toggle="tab" href="#countdown" role="tab" aria-controls="countdown" aria-selected="false">Countdown</a>
-        </li>
-    </ul>
+    <div class="container-fluid">
+        <ul class="nav nav-tabs" id="timers" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="stopwatch-tab" data-toggle="tab" href="#stopwatch" role="tab" aria-controls="stopwatch" aria-selected="true">Stopwatch</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="countdown-tab" data-toggle="tab" href="#countdown" role="tab" aria-controls="countdown" aria-selected="false">Countdown</a>
+            </li>
+        </ul>
 
-    <div class="tab-content" id="timersTabContent">
-        <div class="tab-pane fade show active" id="stopwatch" role="tabpanel" aria-labelledby="stopwatch-tab">
-            <div id="chronoExample">
-                <div class="values h1">
-                    00:00:00
-                </div>
-                <div>
-                    <button type="button" class="startButton btn btn-success">Start</button>
-                    <button type="button" class="pauseButton btn btn-secondary" >Pause</button>
-                    <button type="button" class="stopButton btn btn-danger">Stop</button>
-                    <button type="button" class="resetButton btn btn-warning">Reset</button>
+        <div class="tab-content" id="timersTabContent">
+            <div class="tab-pane fade show active" id="stopwatch" role="tabpanel" aria-labelledby="stopwatch-tab">
+                <div id="chronoExample">
+                    <div class="values h1">
+                        00:00:00
+                    </div>
+                    <div>
+                        <button type="button" class="startButton btn btn-success">Start</button>
+                        <button type="button" class="pauseButton btn btn-secondary" >Pause</button>
+                        <button type="button" class="stopButton btn btn-danger">Stop</button>
+                        <button type="button" class="resetButton btn btn-warning">Reset</button>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="tab-pane fade" id="countdown" role="tabpanel" aria-labelledby="countdown-tab">
-            <h1>This is empty!</h1>
+            <div class="tab-pane fade" id="countdown" role="tabpanel" aria-labelledby="countdown-tab">
+                <h1>This is empty!</h1>
+            </div>
         </div>
     </div>
 

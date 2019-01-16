@@ -76,3 +76,9 @@ Route::get('fidget', function () {
     return redirect('https://itunes.apple.com/us/app/animated-fidget-spinner-sticker-pack/id1272739329?mt=8');
 
 });
+
+Route::get('youtube', function () {
+
+return redirect('https://www.youtube.com/channel/UCWehsqV0hK82hS53DGH_icg');
+
+});

@@ -37,7 +37,7 @@
                             <li class="per"><a href="#">Watch Me!</a>
                                 <ul>
                                     <li><a href="https://www.twitch.tv/trevxor" target="_blank"><img src={{asset("twitch.png")}} title="twitch" height="32" width="32" />Twitch</a></li>
-                                    <li><a href="https://www.youtube.com/channel/UCFSJsYcAUnlRIsceaXacrxg" target="_blank"><img src={{asset("youtube.png")}} title="youtube" height="32" width="32" />Youtube</a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCWehsqV0hK82hS53DGH_icg" target="_blank"><img src={{asset("youtube.png")}} title="youtube" height="32" width="32" />Youtube</a></li>
                                 </ul>
                             </li>
                             <li class="per"><a href="#">Support Me!</a>

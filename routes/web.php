@@ -35,6 +35,12 @@ Route::get('discord', function () {
 
 });
 
+Route::get('fb', function () {
+
+    return redirect('https://www.facebook.com/Trevxor-101778424930184');
+
+});
+
 Route::get('contact', function () {
 
     return view('contact');
